@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.Nav-bar{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    background-color: white;
+    align-items: center;
+    padding: 0 24px;
+    color: black;
+}
+.Nav-logo{
+    display: flex;
+    align-items: center ;
+    height: 32px;
+    
+}
+
+.Nav-items li{
+    display: inline;
+    padding: 0 8px;
+    
+}
+
+.containerA{
+    display: flex;
+    background-color: lightgray;
+    
+
+}
+
+
+
+.containerA img{
+    width: 60%;
+    padding: 32px 24px;
+}
+    
+
+
+.contA-sec2{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: center;
+    
+    
+}
+
+.contA-sec2 h1{
+    padding-bottom: 5%;
+}
+
+.contA-sec2 p{
+    padding-bottom: 5%;
+}
+
+.A-btn{
+    padding: 8px 0 ;
+    background-color:black;
+    color: white;
+}
+
+.containerB{
+    display: flex;
+    background-color: white;
+    
+}
+
+
+
+
+.contB-sec1{
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+    
+}
+
+.contB-sec1-text h1, .contB-sec1-text p{
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+
+
+
+.contB-sec2{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px;
+
+    
+
+}
+
+.contB-sec2 img{
+   max-width: 35%;
+   padding: 16px 16px;
+
+    
+}
+
+.contB-sec2 .text{
+    max-width: 65%;
+
+    
+}
+
+.contB-sec2 .item{
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+.contB-sec2 .item h1, .contB-sec2 .item p,
+.contB-sec2 .item a {
+    padding: 8px 0;
+}
+
+
+.contB-sec2 .item3{
+
+    background-color: lightgray;
+}
+
+
+.containerC{
+    background-color: lightgray;
+}
+
+.contC-header{
+    text-align: center;
+    padding-top: 32px;
+}
+.containerC .all-items{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 32px ;
+    padding-right: 40px;
+    padding-left: 72px;
+    padding-bottom: 32px;
+
+
+}
+
+.all-items .item{
+    max-width: 30%;
+    background-color: white;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    padding-left: 6px;
+}
+
+.all-items .item h1, .all-items .item p{
+    padding: 8px 0 ;
+}
+
+
+
+
+
+
+.all-items .item img{
+    width: 100%;
+}
+
+
+
+.contD-header{
+    padding: 32px 0;
+    text-align: center;
+
+}
+
+.contD-section{
+    display: flex;
+}
+
+.contD-section .sec1{
+    max-width: 60%;
+    padding: 24px;
+
+}
+
+video{
+    width: 100%;
+}
+
+.contD-section .sec2{
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sec2 .item{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    
+}
+
+.sec2 .item img{
+    max-width: 35%;
+    padding: 16px;
+}
+
+.sec2 .item text{
+    max-width: 65%;
+
+}
+
+.sec2 .item1{
+    background-color: lightgray;
+}
+
+.sec2 .item .text h1, .sec2 .item .text p {
+    padding:15px 0  ;
+}
+
+.contC-sec1-header{
+    padding-top: 24px;
+    padding-bottom: 8px;
+    
+}
+
+
+.contC-sec1-paragraph{
+    padding-bottom: 32px;
+}
+
+.contC-sec1-paragraph{
+    padding-top: 16px;
+}
